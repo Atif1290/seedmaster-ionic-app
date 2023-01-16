@@ -8,7 +8,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
   selector: 'app-change-password',
   templateUrl: './change-password.page.html',
   styleUrls: ['./change-password.page.scss'],
-})
+})  
 //how to write css 
 export class ChangePasswordPage  {
 
@@ -100,6 +100,7 @@ async dismissLoading() {
         // }, 3000);
         //redirect to login page 
        }else if (res.msg =='Old password is incorrect!'){
+        console.log(res.msg); 
         this.incorrectPassAlert();
       } else if (res.msg =='Old Password Required!'){
         this.oldPassAlert();

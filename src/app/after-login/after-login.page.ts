@@ -14,6 +14,7 @@ export class AfterLoginPage implements OnInit {
   constructor(private http: HttpClient, private alertController: AlertController, public loadingController: LoadingController, private router: Router) {
   }
   ngOnInit() {
+    console.log("setting page");
   }
   updateProfile() {
     console.log("ShowMainpage");
@@ -21,7 +22,7 @@ export class AfterLoginPage implements OnInit {
     console.log(user_id);
     this.router.navigateByUrl('personal-info')
   }
-  settingsPage() {
+  settingsPage() { 
     this.router.navigateByUrl('settings');
   }
     logOut(){
