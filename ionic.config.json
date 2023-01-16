@@ -1,0 +1,8 @@
+{
+  "name": "ionic start testApp",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}

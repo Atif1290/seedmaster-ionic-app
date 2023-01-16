@@ -1,0 +1,292 @@
+<ion-content [fullscreen]="true">
+  <ion-slides style="height: 95.5%;" pager="true" [options]="slideOpts">
+    <ion-slide>
+      <div id="bg_img">
+        <ion-row>
+          <ion-col size="2">
+            <div></div>
+          </ion-col>
+          <ion-col size="8">
+            <div id="header">
+              <span id="seed">SEED</span>
+              <img id="image" src="/assets/avatar.png">
+              <span id="master">MASTER</span>
+            </div>
+          </ion-col>
+          <ion-col size="2">
+            <div>
+              <ion-icon id="icon" name="settings-sharp"></ion-icon>
+            </div>
+          </ion-col>
+        </ion-row>
+
+        <div id="label_bg">
+          <ion-row>
+            <ion-col size="2">
+              <div>
+              </div>
+            </ion-col>
+            <ion-col size="4">
+              <div>
+                <span id="label_value" style="margin-left: 13px;">SEED</span>
+              </div>
+            </ion-col>
+            <ion-col size="4">
+              <div>
+                <span id="lbs">LBS/ACRE</span>
+              </div>
+            </ion-col>
+            <ion-col size="2">
+              <div>
+              </div>
+            </ion-col>
+          </ion-row>
+        </div>
+
+        <ion-row>
+          <ion-col size="12" style="margin-top: 5px;">
+            <div id="login-bg">
+              <ion-row>
+                <ion-col size=".3">
+                  <div>
+                    <ion-icon id="info_icon" name="information-circle-outline"></ion-icon>
+                  </div>
+                </ion-col>
+                <ion-col size="8">
+                  <div style=" margin-top: 4px;margin-left: 5px;">
+                    <span id="range_selecter">Plant Density (Plant / ft2)</span>
+                  </div>
+                </ion-col>
+                <ion-col size="2" style="margin-left: auto;">
+                  <div>
+                    <ion-input id="input" placeholder="00.0"></ion-input>
+                  </div>
+                </ion-col>
+              </ion-row>
+              <ion-range id="range"></ion-range>
+            </div>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="12" id="top">
+            <div id="login-bg">
+              <ion-row>
+                <ion-col size=".3">
+                  <div>
+                    <ion-icon id="info_icon" name="information-circle-outline"></ion-icon>
+                  </div>
+                </ion-col>
+                <ion-col size="8">
+                  <div style=" margin-top: 4px;margin-left: 5px;">
+                    <span id="range_selecter">Plant Density (Plant / ft2)</span>
+                  </div>
+                </ion-col>
+                <ion-col size="2" style="margin-left: auto;">
+                  <div>
+                    <ion-input id="input" placeholder="00.0"></ion-input>
+                  </div>
+                </ion-col>
+              </ion-row>
+              <ion-range id="range"></ion-range>
+            </div>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="12" id="top">
+            <div id="login-bg">
+              <ion-row>
+                <ion-col size=".3">
+                  <div>
+                    <img src="/assets/setting.png">
+                  </div>
+                </ion-col>
+                <ion-col size="8">
+                  <div style=" margin-top: 4px;margin-left: 5px;">
+                    <span id="range_selecter">Plant Density (Plant / ft2)</span>
+                  </div>
+                </ion-col>
+                <ion-col size="2" style="margin-left: auto;">
+                  <div>
+                    <ion-input id="input" placeholder="00.0"></ion-input>
+                  </div>
+                </ion-col>
+              </ion-row>
+              <ion-range id="range"></ion-range>
+            </div>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="12" id="top">
+            <div id="login-bg">
+              <ion-row>
+                <ion-col size=".3">
+                  <div>
+                    <ion-icon id="info_icon" name="information-circle-outline"></ion-icon>
+                  </div>
+                </ion-col>
+                <ion-col size="8">
+                  <div style=" margin-top: 4px;margin-left: 5px;">
+                    <span id="range_selecter">Plant Density (Plant / ft2)</span>
+                  </div>
+                </ion-col>
+                <ion-col size="2" style="margin-left: auto;">
+                  <div>
+                    <ion-input id="input" placeholder="00.0"></ion-input>
+                  </div>
+                </ion-col>
+              </ion-row>
+              <ion-range id="range"></ion-range>
+            </div>
+          </ion-col>
+        </ion-row>
+
+        <p id="detail">
+          The SeedMaster seed rate calculator will estimate how uch seed to need to plant to obtain a desired plant population.
+        </p>
+
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div id="bg_img">
+        <ion-row>
+          <ion-col size="2">
+            <div></div>
+          </ion-col>
+          <ion-col size="8">
+            <div id="header">
+              <span id="seed">SEED</span>
+              <img id="image" src="/assets/avatar.png">
+              <span id="master">MASTER</span>
+            </div>
+          </ion-col>
+          <ion-col size="2">
+            <div>
+              <ion-icon id="icon" name="settings-sharp"></ion-icon>
+            </div>
+          </ion-col>
+        </ion-row>
+
+        <ion-row id="heading_bar">
+          <ion-col size="4">
+            <div>
+              <span id="heading">Crop</span>
+            </div>
+          </ion-col>
+          <ion-col size="4">
+            <div>
+              <span id="heading">Target Plants/ft</span>
+            </div>
+          </ion-col>
+          <ion-col size="4">
+            <div>
+              <span id="heading">TKW(grams)</span>
+            </div>
+          </ion-col>
+        </ion-row>
+
+        <div id="bg">
+          <ion-grid>
+            <ion-row>
+              <ion-col size="4" id="grid">Canola - Hybrid</ion-col>
+              <ion-col size="4" id="grid">4.5 - 8.0</ion-col>
+              <ion-col size="4" id="grid2">4 - 7</ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="4" id="grid">Canola - Hybrid</ion-col>
+              <ion-col size="4" id="grid">4.5 - 8.0</ion-col>
+              <ion-col size="4" id="grid2">4 - 7</ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="4" id="grid">Canola - Hybrid</ion-col>
+              <ion-col size="4" id="grid">4.5 - 8.0</ion-col>
+              <ion-col size="4" id="grid2">4 - 7</ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="4" id="grid">Canola - Hybrid</ion-col>
+              <ion-col size="4" id="grid">4.5 - 8.0</ion-col>
+              <ion-col size="4" id="grid2">4 - 7</ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="4" id="grid">Canola - Hybrid</ion-col>
+              <ion-col size="4" id="grid">4.5 - 8.0</ion-col>
+              <ion-col size="4" id="grid2">4 - 7</ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="4" id="grid">Canola - Hybrid</ion-col>
+              <ion-col size="4" id="grid">4.5 - 8.0</ion-col>
+              <ion-col size="4" id="grid2">4 - 7</ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="4" id="grid">Canola - Hybrid</ion-col>
+              <ion-col size="4" id="grid">4.5 - 8.0</ion-col>
+              <ion-col size="4" id="grid2">4 - 7</ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="4" id="grid">Canola - Hybrid</ion-col>
+              <ion-col size="4" id="grid">4.5 - 8.0</ion-col>
+              <ion-col size="4" id="grid2">4 - 7</ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="4" id="grid">Canola - Hybrid</ion-col>
+              <ion-col size="4" id="grid">4.5 - 8.0</ion-col>
+              <ion-col size="4" id="grid2">4 - 7</ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="4" id="grid">Canola - Hybrid</ion-col>
+              <ion-col size="4" id="grid">4.5 - 8.0</ion-col>
+              <ion-col size="4" id="grid2">4 - 7</ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="4" id="grid">Canola - Hybrid</ion-col>
+              <ion-col size="4" id="grid">4.5 - 8.0</ion-col>
+              <ion-col size="4" id="grid2">4 - 7</ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="4" id="grid">Canola - Hybrid</ion-col>
+              <ion-col size="4" id="grid">4.5 - 8.0</ion-col>
+              <ion-col size="4" id="grid2">4 - 7</ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="4" id="grid">Canola - Hybrid</ion-col>
+              <ion-col size="4" id="grid">4.5 - 8.0</ion-col>
+              <ion-col size="4" id="grid2">4 - 7</ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="4" id="grid3">Canola - Hybrid</ion-col>
+              <ion-col size="4" id="grid3">4.5 - 8.0</ion-col>
+              <ion-col size="4" id="grid4">4 - 7</ion-col>
+            </ion-row>
+          </ion-grid>
+
+        </div>
+      </div>
+
+    </ion-slide>
+  </ion-slides>
+
+  <ion-tabs id="tabs">
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button class="border_bg">
+        <ion-label>Rate</ion-label>
+        <!-- <ion-badge>6</ion-badge> -->
+      </ion-tab-button>
+
+      <ion-tab-button tab="speakers" class="border_bg">
+        <ion-label>Cost</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="map" class="border_bg">
+        <ion-label>Cal.</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="about" class="border_bg">
+        <ion-label>SeedMaster</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+
+</ion-content>

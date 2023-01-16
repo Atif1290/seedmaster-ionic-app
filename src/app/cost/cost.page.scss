@@ -1,0 +1,129 @@
+#bg_img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(/assets/bg.png);
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+#image {
+    height: 30px;
+    width: 30px;
+}
+
+ion-range {
+    --bar-background-active: #F9B720;
+    --knob-background: rgb(250, 250, 250);
+    --knob-size: 38px;
+    --bar-background: rgb(250, 250, 250);
+  }
+
+#seed {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: end;
+}
+
+#master {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: start;
+}
+
+#icon {
+    height: 30px;
+    width: 30px;
+    margin-right: -10px;
+    align-items: flex-start;
+}
+
+#spans {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#label_value {
+    color: #F9B720;
+    font-size: 12px;
+}
+
+#lbs {
+    color: white;
+    font-size: 12px;
+}
+
+#label_bg {
+    border: 2px solid #F9B720;
+    background-color: #424244;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#login-bg {
+    margin-top: -5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #424244;
+}
+
+#input {
+    width: 45px;
+    height: 32px;
+    border: 2px solid #F9B720;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+#detail {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#button {
+    width: auto;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #F9B720;
+}
+
+#tabs {
+    height: 35px;
+    margin-top: auto;
+}
+
+.border_bg {
+    border-top: 2px solid #F9B720;
+    border-bottom: 2px solid #F9B720;
+    border-left: 1px solid #F9B720;
+    border-right: 1px solid #F9B720;
+}
+
+
+#range {
+    margin-top: -10px;
+}

@@ -1,0 +1,78 @@
+<ion-content [fullscreen]="true">
+  <div id="bg_img">
+
+    <ion-row>
+      <ion-col size="2">
+        <div></div>
+      </ion-col>
+      <ion-col size="8">
+        <div id="header">
+          <span id="seed">SEED</span>
+          <img id="image" src="/assets/avatar.png">
+          <span id="master">MASTER</span>
+        </div>
+      </ion-col>
+      <ion-col size="2">
+        <div>
+          <ion-icon id="icon" name="settings-sharp"></ion-icon>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <div id="login-bg" style="width: auto; border: 2px solid gray; padding: 10px; margin-top:5px; margin-left: 13px; margin-right: 13px;">
+      <span id="spans" style="color:  #F9B720;">Average Auto Zone Command Savings</span>
+      <span id="spans" style="margin-top: 5px;">The SeedMaster seed rate calculator will estimate how uch seed to need to plant to obtain
+      </span>
+    </div>
+
+    <ion-row style="margin-top: 2px;">
+      <ion-col size="12">
+        <div id="login-bg">
+          <ion-input id="input" placeholder="Canola Acres" ></ion-input>  
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12">
+        <div id="login-bg">
+          <ion-input id="input" placeholder="Wheat Acres" ></ion-input>   
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12">
+        <div id="login-bg">
+          <ion-input id="input" placeholder="%Overlap" ></ion-input>  
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12">
+        <div id="login-bg">
+          <ion-input id="input" placeholder="Current Canola Seeding Rate" ></ion-input>   
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-button id="button" class="ion-margin" style="margin-top: 2px;" class="btn" expand="full" color="#F9B720">Submit</ion-button>
+    <ion-tabs id="tabs">
+      <ion-tab-bar slot="bottom">
+        <ion-tab-button class="border_bg">
+          <ion-label>Rate</ion-label>
+        </ion-tab-button>
+  
+        <ion-tab-button tab="speakers" class="border_bg"> 
+          <ion-label>Cost</ion-label>
+        </ion-tab-button>
+  
+        <ion-tab-button tab="map" class="border_bg">
+          <ion-label>Cal.</ion-label>
+        </ion-tab-button>
+  
+        <ion-tab-button tab="about" class="border_bg">
+          <ion-label>SeedMaster</ion-label>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+
+  </div>
+</ion-content>

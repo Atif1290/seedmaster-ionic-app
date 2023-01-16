@@ -1,0 +1,171 @@
+#bg_img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(/assets/bg.png);
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+#logo {
+  gap: 7px;
+}
+
+#label_value{
+  color:#F9B720;
+  font-size: 12px;
+}
+
+#lbs{
+  color:white;
+  font-size: 12px;
+}
+
+#label_bg{
+  border: 2px solid #F9B720;
+  background-color: #424242;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+#tabs {
+  height: 35px;
+  margin-top: auto;
+}
+
+#image {
+  height: 30px;
+  width: 30px;
+}
+
+.border_bg {
+  border-top: 2px solid #F9B720;
+  border-bottom: 2px solid #F9B720;
+  border-left: 1px solid #F9B720;
+  border-right: 1px solid #F9B720;
+}
+
+#login-bg {
+  margin-top: -5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #424244;
+}
+
+#input {
+  width: 45px;
+  height: 32px;
+  border: 2px solid #F9B720;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+}
+
+#range{
+  margin-top: -10px;
+}
+
+#top{
+  margin-top: 2px;
+}
+
+#seed {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: end;
+}
+
+#master { 
+  font-size: 18px;
+  font-weight: bold;
+  text-align: start;
+}
+
+#range_selecter{
+  font-size: 14px;
+}
+
+#icon {
+  height: 30px;
+  width: 30px;
+  margin-right: -10px;
+  align-items: flex-start;
+}
+
+#info_icon{
+  height: 30px;
+  width: 30px;
+  color: #F9B720;
+  margin-right: -10px;
+  align-items: flex-start;
+}
+
+#heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  color: #F9B720;
+}
+
+#grid {
+  border-bottom: 1px solid #F9B720;
+  border-right: 1px solid #F9B720;
+  text-align: center;
+  padding: 7px;
+  font-size: 12px;
+}
+
+#grid2 {
+  border-bottom: 1px solid #F9B720;
+  font-size: 12px;
+  padding: 7px;
+  text-align: center; 
+}
+
+#grid3 {
+  border-right: 1px solid #F9B720;
+  text-align: center;
+  padding: 7px;
+  font-size: 12px;
+}
+
+#grid4 {
+  font-size: 12px;
+  padding: 7px;
+  text-align: center; 
+}
+
+#bg{
+  margin: 10px;
+  padding: 5px;
+  background-color: #424244;
+}
+
+#heading_bar{
+  margin: 10px;
+}
+
+#detail{
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ion-slides {
+  --bullet-background: #424244;
+  --bullet-background-active: white;
+}

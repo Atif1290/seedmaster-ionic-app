@@ -1,0 +1,101 @@
+<ion-content>
+<!-- <ion-scroll scrollX="true"> -->
+<div id="bg_img">
+
+<div id="hadder">
+  <p id="seed">SEED</p>
+  <ion-img id="image" src="/assets/avatar.png"></ion-img>
+  <p id="master">MASTER</p>
+</div>
+<form  (ngSubmit)="onClick()"  autocomplete="off">
+<ion-row>
+  <ion-col size="12" style="margin-top: 10px;">
+    <div id="login-bg">
+      <ion-input id="input" placeholder="Email"  [(ngModel)] = "email" name="email" ></ion-input>   
+    </div>
+  </ion-col>
+</ion-row>
+<input type="hidden" name="device_id" value="1454">
+<ion-row>
+  <ion-col size="12"> 
+    <div id="login-bg">
+      <ion-input id="input" type="password" placeholder="Password" [(ngModel)] = "password" name="password"></ion-input>  
+    </div>
+  </ion-col>
+</ion-row>
+<ion-row>
+  <ion-col size="12">
+    <div id="login-bg">
+      <ion-input id="input" placeholder="First Name" [(ngModel)] = "first_name" name="first_name"  ></ion-input>   
+    </div>
+  </ion-col>
+</ion-row>
+<ion-row>
+  <ion-col size="12">
+    <div id="login-bg">
+      <ion-input id="input" placeholder="Last Name" [(ngModel)] = "last_name" name="last_name"  ></ion-input>  
+    </div>
+  </ion-col>
+</ion-row>
+<ion-row>
+  <ion-col size="12">
+    <div id="login-bg">
+      <ion-input id="input" placeholder="Phone"  [(ngModel)] = "phone" name="phone" ></ion-input>   
+    </div>
+  </ion-col>
+</ion-row>
+<ion-row>
+  <ion-col size="12">
+    <div id="login-bg">
+      <ion-input id="input" placeholder="Address 1"  [(ngModel)] = "address1" name="address1" ></ion-input>  
+    </div>
+  </ion-col>
+</ion-row>
+<ion-row>
+  <ion-col size="12">
+    <div id="login-bg">
+      <ion-input id="input" placeholder="Address 2"  [(ngModel)] = "address2" name="address2" ></ion-input>   
+    </div>
+  </ion-col>
+</ion-row>
+<ion-row>
+  <ion-col size="12">
+    <div id="login-bg">
+      <ion-input id="input" placeholder="City" [(ngModel)] = "city" name="city"  ></ion-input>  
+    </div>
+  </ion-col>
+</ion-row>
+<ion-row>
+  <ion-col size="12">
+    <div id="login-bg">
+      <ion-list style="background-color: #424244;"  class="ion-no-padding" >
+          <ion-select interface="popover" id="input" [(ngModel)] = "province" name="province" placeholder="Select Provice/State" style="border: 2px solid #F9B720;">
+            <ion-select-option value="nes">NES</ion-select-option>
+            <ion-select-option value="n64">Nintendo64</ion-select-option>
+            <ion-select-option value="ps">PlayStation</ion-select-option>
+            <ion-select-option value="genesis">Sega Genesis</ion-select-option>
+            <ion-select-option value="saturn">Sega Saturn</ion-select-option>
+            <ion-select-option value="snes">SNES</ion-select-option>
+          </ion-select>
+  </ion-list>
+  </div>
+  </ion-col>
+</ion-row>
+
+
+<ion-row>
+  <ion-col size="12">
+    <div id="login-bg">
+      <ion-input id="input" placeholder="Zip/Postal Code" name="zipcode"[(ngModel)] = "zip_code" name="zip_code" ></ion-input>  
+    </div>
+  </ion-col>
+</ion-row>
+<ion-button id="button" class="ion-margin" type="submit"   style="margin-top: 2px;" class="btn" expand="full" color="#F9B720" >REGISTER</ion-button>
+<ion-button id="button" class="ion-margin"   class="btn" (click)="nextpage()" expand="full" color="#F9B720">SIGN IN</ion-button>
+<ion-button id="button2" class="ion-margin" expand="full" (click)="forgetPage()" class="btn" color="#CC2E19" >FORGOT PASSWORD</ion-button>
+</form>
+</div>
+<!-- </ion-scroll>  -->
+</ion-content>
+
+

@@ -1,0 +1,80 @@
+#image{
+    height: 30px;
+    width: 30px;
+    margin-top: -5px;
+}
+
+#bg_img{
+    width: 100%;
+    padding-bottom: 200px;
+    background-size: cover;
+    background-image: url(/assets/bg.jpg);
+}
+
+#hadder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+#seed{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: end;
+}
+
+#master{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: start;
+}
+
+#login-bg {
+    margin-top: -5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #424244;  
+}
+
+#input{
+    width: 100%;
+    border: 2px solid #F9B720;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 10dp;
+}
+
+#button{
+    width: auto;
+    height:45px;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 75px;
+    margin-right: 75px;
+    background-color: #F9B720;
+}
+
+#button2{
+    width: auto;
+    height:45px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 75px;
+    margin-right: 75px;
+    background-color: #CC2E19;
+}
+
+.btn{
+    margin-top: 5px;
+}
+

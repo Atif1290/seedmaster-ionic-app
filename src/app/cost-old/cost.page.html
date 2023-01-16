@@ -1,0 +1,144 @@
+<ion-content [fullscreen]="true">
+
+  <div id="bg_img">
+    <ion-row>
+      <ion-col size="2">
+        <div></div>
+      </ion-col>
+      <ion-col size="8">
+        <div id="header">
+          <span id="seed">SEED</span>
+          <img id="image" src="/assets/avatar.png">
+          <span id="master">MASTER</span>
+        </div>
+      </ion-col>
+      <ion-col size="2">
+        <div>
+          <ion-icon id="icon" name="settings-sharp"></ion-icon>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <span id="spans">Seed Required</span>
+
+    <div id="label_bg">
+      <ion-row>
+        <ion-col size="2">
+          <div>
+          </div>
+        </ion-col>
+        <ion-col size="4">
+          <div>
+            <span id="label_value" style="margin-left: 13px;">3003440</span>
+          </div>
+        </ion-col>
+        <ion-col size="4">
+          <div>
+            <span id="lbs">LBS</span>
+          </div>
+        </ion-col>
+        <ion-col size="2">
+          <div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </div>
+
+    <span id="spans">Total cost of seed</span>
+
+    <div id="label_bg">
+      <ion-row>
+        <ion-col size="2">
+          <div>
+          </div>
+        </ion-col>
+        <ion-col size="2">
+          <div>
+            <span id="label_value" style="margin-left: 15px;">$</span>
+          </div>
+        </ion-col>
+        <ion-col size="6">
+          <div>
+            <span id="lbs">45235.76</span>
+          </div>
+        </ion-col>
+        <ion-col size="2">
+          <div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </div>
+
+    <ion-row>
+      <ion-col size="12" style="margin-top: 5px;">
+        <div id="login-bg">
+          <ion-row>
+            <ion-col size="8">
+              <div style=" margin-top: 4px;margin-left: 5px;">
+                <span id="range_selecter">Price per pound ($)</span>
+              </div>
+            </ion-col>
+            <ion-col size="2" style="margin-left: auto;">
+              <div>
+                <ion-input id="input" placeholder="00.0"></ion-input>
+              </div>
+            </ion-col>
+          </ion-row>
+          <ion-range id="range"></ion-range>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12" style="margin-top: 5px;">
+        <div id="login-bg">
+          <ion-row>
+            <ion-col size="8">
+              <div style=" margin-top: 4px;margin-left: 5px;">
+                <span id="range_selecter"># of Acres</span>
+              </div>
+            </ion-col>
+            <ion-col size="2" style="margin-left: auto;">
+              <div>
+                <ion-input id="input" placeholder="00.0"></ion-input>
+              </div>
+            </ion-col>
+          </ion-row>
+          <ion-range id="range"></ion-range>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <div id="login-bg" style="width: auto; border: 2px solid gray; padding: 10px; margin-top:5px; margin-left: 13px; margin-right: 13px;">
+      <span id="spans" >Seed 1365.2 lbs/acre</span>
+      <span id="spans" style="margin-top: 10px;">to obtain 31.0 live pltants/sq ft</span>
+    </div>
+
+    <p id="detail">
+      The SeedMaster seed rate calculator will estimate how uch seed to need to plant to obtain a desired plant population.
+    </p>
+    
+    <ion-button id="button" class="ion-margin"  expand="full" class="btn" color="#F9B720" style="margin-top: 130px; text-transform: lowercase;">Calculate Cost Profit Saving</ion-button>
+
+    <ion-tabs id="tabs">
+      <ion-tab-bar slot="bottom">
+        <ion-tab-button class="border_bg">
+          <ion-label>Rate</ion-label>
+        </ion-tab-button>
+  
+        <ion-tab-button tab="speakers" class="border_bg"> 
+          <ion-label>Cost</ion-label>
+        </ion-tab-button>
+  
+        <ion-tab-button tab="map" class="border_bg">
+          <ion-label>Cal.</ion-label>
+        </ion-tab-button>
+  
+        <ion-tab-button tab="about" class="border_bg">
+          <ion-label>SeedMaster</ion-label>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+
+  </div>
+</ion-content>

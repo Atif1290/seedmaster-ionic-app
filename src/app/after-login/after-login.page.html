@@ -1,0 +1,17 @@
+<ion-content>
+  <div id="bg_img">
+
+    <div id="hadder">
+      <p id="seed">SEED</p>
+       <ion-img id="image"  (click)="settingsPage()" src="/assets/avatar.png"></ion-img> 
+      <p id="master">MASTER</p>
+    </div>
+    <form  autocomplete="off">
+      <ion-button id="button" class="ion-margin" class="btn" (click)="updateProfile()" expand="full" color="#F9B720">PERSONAL INFO</ion-button>
+      <ion-button id="button" class="ion-margin" class="btn" (click)="changePass()" expand="full"
+        color="#F9B720">CHANGE PASSWORD</ion-button>
+        <ion-button id="button2" class="ion-margin" class="btn" expand="full" color="#CC2E19" (click)="logOut()">LOGOUT</ion-button>
+    
+    </form>
+  </div>
+</ion-content>
